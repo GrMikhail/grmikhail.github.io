@@ -93,10 +93,6 @@ p i{
     vertical-align: text-top;
 }
 
-.tabs{
-    overflow-x: hidden;
-}
-
 .tabs .indicator{
     background-color: #3f51b5!important;
 }
