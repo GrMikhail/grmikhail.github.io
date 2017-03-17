@@ -2,7 +2,7 @@ var weddingDate = new Date(2017, 06, 10, 12);
 var receptionDate = new Date(2017, 06, 10, 12, 45);
 
 $(document).ready(function () {
-    $('.scrollspy').scrollSpy();
+    $('.scrollspy').scrollSpy({scrollOffset:125});
     $('.parallax').parallax();
     $('.collapsible').collapsible();
     var interval = setInterval(checkWeddingDate, 1000);
